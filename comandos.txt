@@ -1,0 +1,151 @@
+
+java -jar antlr-4.9.3-complete.jar MAT.g4
+
+
+cd C:\Users\eduar\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\OneDrive\Documentos\NetBeansProjects\Lenguaje_Prueba\src\prueba
+java -jar antlr-4.9.3-complete.jar prueba.g4
+
+
+
+
+
+cd C:\Users\eduar\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\OneDrive\Documentos\NetBeansProjects\MyMatrixL
+javac myMatrixL_Java.java
+java myMatrixL_Java.java
+
+
+
+cd C:\Users\eduar\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\OneDrive\Documentos\NetBeansProjects\MyMatrixL\src\matrixL
+javac MyMatrixL_GUI.java
+java MyMatrixL_GUI.java
+
+
+
+
+java -jar "C:\Users\eduar\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\OneDrive\Documentos\NetBeansProjects\MyMatrixL\dist\MyMatrixL.jar"
+
+
+java -jar "C:\Users\eduar\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\OneDrive\Documentos\NetBeansProjects\MyMatrixL\src\MyMatrixL_GUI.java"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    int a, b, c;
+    a = 4*4;
+    write a;
+}
+
+
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+/* Online Java Compiler and Editor */
+// import java.io.*;
+import java.util.*;
+
+public class Main{
+    
+    static int[][] matrix_sum(int matrixA[][], int matrixB[][])
+    {
+        
+        int mat[][] = new int[6][3];    
+
+        for(int i = 0;i<3;i++){
+            for(int j = 0;j<3;j++){
+                mat[i][j] = matrixA[i][j] + matrixB[i][j];
+            }
+        }
+        return mat;
+    }
+    
+    public static void print_matrix(int mat[][])
+    {
+        for (int[] row : mat)
+            System.out.println(Arrays.toString(row));
+    }
+    
+     public static void main(String []args){
+        int a[][]={{1,3,4},{2,4,3},{3,4,5}};
+        
+        System.out.println("lenght: " + a.length);
+        System.out.println("lenght: " + a[0].length);
+
+        
+        int b[][]={{1,3,4},{2,4,3},{1,2,4}};
+        
+        int r[][] = new int [3][3];
+        r = matrix_sum(a, b);
+        
+        print_matrix(r);
+        
+
+     }
+}
+
+
+        int[][] d={{1,2,3},{4,5,6},{7,8,9}}
+        int[][] f={{1,2,3},{4,5,6},{7,8,9}}
+        int[3][3] e= matrix_transpos(d, f, 3, 3);
+        int[3][3] e= matrix_sum(d, f, 3, 3);
+        int[3][3] e= matrix_substraction(d, f, 3, 3);
+        int[3][3] e= matrix_product(d, f, 3, 3);
+
+
+
+
+
+
+
+
+
+
+int j = i;
+                if (i > 0)
+                {
+                    keyword+= String.valueOf(currentText.charAt(i-1));
+                }
+                
+                while (j < currentText.length())
+                {
+                    if (j+1 < currentText.length() && array_contains(symbols, String.valueOf(currentText.charAt(j+1))))
+                        {
+                            keyword = "";
+                            isKeyword = true;
+                            appendToPane(txtData, keyword, Color.RED);
+                            break;
+                        }
+                    else
+                    {
+                        keyword += String.valueOf(currentText.charAt(j));
+                        appendToPane(txtData, String.valueOf(c), Color.GRAY);
+                    }
+                    j++;
+                }
+                
+                if (isKeyword)
+                {
+                }
+
+
+https://www.canva.com/design/DAExBsFzm8Q/gINBkL3D-sNVtyA3mKYJYg/view?utm_content=DAExBsFzm8Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#3
+
+
+
